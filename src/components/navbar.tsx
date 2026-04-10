@@ -3,7 +3,7 @@ import { Videotape } from 'lucide-react';
 export default function Navbar() {
   return (
     <nav className="w-full border-b bg-base-900 border-accent px-6 py-4">
-      <div className="mx-auto flex max-w-5xl items-center justify-between">
+      <div className="mx-auto flex max-w-5xl items-center justify-between font-display">
         
         {/* Logo Section */}
         <div className="flex items-center gap-2">

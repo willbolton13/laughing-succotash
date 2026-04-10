@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-  --font-family: 'Oswald', sans-serif;
+  --font-display: 'Oswald', sans-serif;
   /* Greyscale base */
   --color-base-900: #212526;
   --color-base-800: #323738;
