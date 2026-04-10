@@ -1,0 +1,32 @@
+---
+import Navbar from '../components/Navbar';
+import '../styles/global.css';
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Gamified Learning Demos</title>
+  </head>
+  <body class="bg-base-800 min-h-screen font-sans selection:bg-accent selection:text-white">
+    <Navbar client:load />
+
+    <main class="mx-auto max-w-5xl px-6 py-20">
+      <header class="mb-16 text-center">
+        <h1 class="text-base-100 mb-4 text-5xl font-extrabold tracking-tight">
+          Interactive <span class="text-accent">Learning</span> Experiments
+        </h1>
+        <p class="text-base-100 mx-auto max-w-2xl text-lg">
+          Who the fuck knows what this is, but it's a thing.
+        </p>
+      </header>
+
+      <section class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <div class="border-base-100 bg-white flex h-48 items-center justify-center rounded-m border border-solid">
+          <p class="text-base-800 font-medium">Demo Slot 1</p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

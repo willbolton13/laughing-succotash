@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  /* Greyscale base */
+  --color-base-900: #212526;
+  --color-base-800: #323738;
+  --color-base-600: #8D9699;
+  --color-base-100: #EDF3F5;
+  --color-base-50: #F7F9FA;
+  
+  /* Light blue highlights */
+  --color-accent: #39C8F7;
+  --color-accent-hover: #0DA6D9;
+}
